@@ -8,28 +8,35 @@
     <title>Slaca 2019</title>
 </head>
 <body>
-    <nav class="sidenav" id="sidenav">
+    <nav class="side-nav">
         <header class="nav-header">
-            <div>
-                SLACA 2019
-            </div>
+            <p class="nav-head">SLACA 2019</p>
         </header>
         <img src="imgs/dewey 4.png" alt="Slaca Logo">
         <ul class="nav-list">
-            <li>Apresentações</li>
-            <li>Comitês</li>
-            <li>Autores</li>
-            <li>Eixos temáticos</li>
-            <li class="open"> <div class="rectangle"></div>Trabalhos</li>
-            <li>Contato</li>
+            <li><a href="#">Apresentação</a></li>
+            <li><a href="#">Comitês</a></li>
+            <li><a href="#">Autores</a></li>
+            <li><a href="#">Eixos Temáticos</a></li>
+            <li class="li-open"><div class="open"></div><a href="#">Trabalhos</a></li>
+            <li><a href="#">Contato</a></li>
         </ul>
     </nav>
-    <header class="header">
-        <p class="subtitle">Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
-        <p class="title">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</p>
-        <p class="issn">ISSN: 1234-5678</p>
-        <p id="language"><img src="imgs/language image.png" alt="Globo"> PT, BR</p>
+    <header>
+        <p></p>
+        <p></p>
+        <p></p>
+        <div class="language-selector">
+            <span><img src="imgs/language image.png"></span>
+            <select name="languages" id="lang">
+                <span><img src="imgs/language image.png"></span>
+                <option value="PT, BR" selected><img src="imgs/language image.png">PT, BR</option>
+                <option value="English"> English</option>
+            </select>
+        </div>
+        
     </header>
+
     <script src="app.js"></script>
 </body>
 </html>
