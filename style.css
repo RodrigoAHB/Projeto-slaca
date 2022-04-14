@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    max-width: 1146px;
 }
 
 .side-nav {
     position: absolute;
     top: 0%;
+    left: 0;
     max-width: 220px;
     width: 220px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
@@ -62,11 +65,21 @@
     background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
 }
 
+.header {
+    background-color: #FDF1EB;
+    position: absolute;
+    left: 220px;
+    width: 88.5%;
+    height: 68px;
+    color: #333;
+}
+
 .language-selector {
     width: 97px;
     height: 34px;
     position: absolute;
-    left: 700px;
+    left: 70%;
+    top: 17px;
     border: 1px solid #ccc;
     border-radius: 3px;
     background-color: #fdf1eb;
@@ -75,4 +88,106 @@
 #lang {
     border-style: none;
     background-color: #fdf1eb;
+    position: absolute;
+    left: 27px;
+    top: 8px;
+}
+
+.lang-img {
+    position: absolute;
+    padding-top: 6px;
+    left: 9px;
+}
+
+.top-header {
+    font-size: 14px;
+    font-weight: 400;
+    color: #725c5c;
+    padding-left: 36px;
+    padding-top: 5px;
+}
+
+.mid-header {
+    font-size: 22px;
+    font-weight: 400;
+    color: #725c5c;
+    padding-left: 36px;
+    padding-top: 2px;
+}
+
+.bottom-header {
+    font-size: 14px;
+    font-weight: 400;
+    color: #725c5c;
+    padding-left: 36px;
+    padding-bottom: 4px;
+}
+
+.login-container {
+    position: absolute;
+    top: 17px;
+    left: 80%;
+}
+
+.greeting {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333;
+    text-align: right;
+}
+
+.email {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #333;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    border-radius: 16px;
+}
+
+.notification {
+    font-size: 10px;
+    font-weight: 700;
+    background-color: #f85959;
+    color: white;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 192px;
+}
+
+.video-container {
+    position: absolute;
+    left: 263px;
+    top: 88px;
+}
+
+.main-title {
+    color: #ED7839;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    max-width: 768px;
+}
+
+.video {
+    margin-top: 19px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 234px;
 }
