@@ -37,7 +37,7 @@ function readMore () {
     } else if (disContainerSent.style.display ==='block') {
         footer.style.bottom = '-128vh';
         sideNav.style.height = '228%';
-    }  
+    }
 }
 
 function readLess () {
@@ -46,6 +46,8 @@ function readLess () {
     resumoContainer.style.height = '187px';
     disContainerClosed.style.top = '845px';
     disContainerOpen.style.top = '845px';
+    footer.style.bottom = '-80vh';
+    sideNav.style.height = '180%';
     if(disContainerOpen.style.display === 'block'){
         footer.style.bottom = '-88vh';
         sideNav.style.height = '188%';
